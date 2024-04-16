@@ -8,9 +8,9 @@ package prometheusremotewrite // import "github.com/emmalidtdg/prometheus/storag
 import (
 	"math"
 
-	"github.com/prometheus/common/model"
 	"github.com/emmalidtdg/prometheus/model/value"
 	"github.com/emmalidtdg/prometheus/prompb"
+	"github.com/prometheus/common/model"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 )
